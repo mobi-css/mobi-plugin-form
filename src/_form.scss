@@ -1,3 +1,26 @@
+@mixin input-block() {
+  display: block;
+  line-height: $line-height-input;
+  margin: $width-gap 0 0;
+  width: 100%;
+}
+
+@mixin input-and-button() {
+  appearance: none;
+  background-color: $color-background;
+  border: $width-border solid $color-border;
+  border-radius: $width-border-radius;
+  // Follow the color of body text
+  color: $color-text;
+  font-family: $font-family;
+  font-size: $font-size;
+  padding: $width-padding-input;
+
+  &:focus {
+    border-color: $color-text-primary;
+  }
+}
+
 .form {
   margin: 0;
 
@@ -10,7 +33,6 @@
     padding-top: $width-padding-input + 1px;
   }
 
-  // Text inputs + Select inputs
   [type=text],
   [type=password],
   [type=email],
@@ -71,7 +93,9 @@
   }
 
   [disabled] {
-    @include disabled();
+    cursor: default;
+    opacity: 0.5;
+    pointer-events: none;
   }
 
   [readonly] {

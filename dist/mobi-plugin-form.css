@@ -1,4 +1,8 @@
-/* mobi-plugin-form v0.0.3 https://mobi-css.github.io/mobi-plugin-form/ */
+/*!
+ * mobi-plugin-form v0.0.3
+ * https://mobi-css.github.io/mobi-plugin-form/
+ */
+
 @charset "UTF-8";
 .form {
   margin: 0; }
@@ -27,7 +31,7 @@
     color: #333;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑", Arial, Helvetica, STHeiti, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 16px;
-    padding: 5px 10px;
+    padding: 5px;
     display: block;
     line-height: 1.25;
     margin: 12px 0 0;
@@ -64,7 +68,7 @@
       color: #333;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑", Arial, Helvetica, STHeiti, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
       font-size: 16px;
-      padding: 5px 10px;
+      padding: 5px;
       display: block;
       line-height: 1.25;
       margin: 12px 0 0;
@@ -100,5 +104,3 @@
     pointer-events: none; }
   .form [readonly] {
     background-color: rgba(51, 51, 51, 0.05); }
-
-/*# sourceMappingURL=mobi-plugin-form.css.map */
