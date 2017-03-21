@@ -62,14 +62,11 @@ If you want to have multiple inputs in one row, you should use the grid system.
       <textarea id="multiple-inputs-bio" placeholder="Who are you?"></textarea>
     </div>
   </div>
-  <div class="flex-left units-gap">
+  <div class="flex-left">
     <div style="width:85px;"></div>
-    <div class="unit">
-      <button type="reset" class="btn btn-danger">Reset</button>
-    </div>
-    <div class="unit">
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </div>
+    <button type="reset" class="btn btn-danger">Reset</button>
+    <div class="unit"></div>
+    <button type="submit" class="btn btn-primary">Submit</button>
   </div>
 </form>
 
@@ -110,14 +107,11 @@ If you want to have multiple inputs in one row, you should use the grid system.
       <textarea id="multiple-inputs-bio" placeholder="Who are you?"></textarea>
     </div>
   </div>
-  <div class="flex-left units-gap">
+  <div class="flex-left">
     <div style="width:85px;"></div>
-    <div class="unit">
-      <button type="reset" class="btn btn-danger">Reset</button>
-    </div>
-    <div class="unit">
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </div>
+    <button type="reset" class="btn btn-danger">Reset</button>
+    <div class="unit"></div>
+    <button type="submit" class="btn btn-primary">Submit</button>
   </div>
 </form>
 ```
