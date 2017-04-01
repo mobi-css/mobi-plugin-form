@@ -5,7 +5,7 @@
   width: 100%;
 }
 
-@mixin input-and-button() {
+@mixin input-text() {
   appearance: none;
   background-color: $color-background;
   border: $width-border solid $color-border;
@@ -17,7 +17,8 @@
   padding: $width-padding-input;
 
   &:focus {
-    border-color: $color-text-primary;
+    border-color: $color-primary;
+    outline: 0;
   }
 }
 
@@ -43,7 +44,7 @@
   [type=number],
   textarea,
   select {
-    @include input-and-button();
+    @include input-text();
     @include input-block();
   }
 
@@ -63,7 +64,7 @@
     [type=month],
     [type=date],
     [type=datetime-local] {
-      @include input-and-button();
+      @include input-text();
       @include input-block();
     }
   }

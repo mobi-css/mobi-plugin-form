@@ -1,8 +1,4 @@
-/*!
- * mobi-plugin-form v0.1.2
- * https://mobi-css.github.io/mobi-plugin-form/
- */
-
+/*! mobi-plugin-form v0.1.2 https://mobi-css.github.io/mobi-plugin-form/ */
 @charset "UTF-8";
 .form {
   margin: 0; }
@@ -46,7 +42,8 @@
     .form [type=number]:focus,
     .form textarea:focus,
     .form select:focus {
-      border-color: #2680d9; }
+      border-color: #2680d9;
+      outline: 0; }
   @media (max-width: 767px) {
     .form [type=time],
     .form [type=week],
@@ -79,7 +76,8 @@
       .form [type=month]:focus,
       .form [type=date]:focus,
       .form [type=datetime-local]:focus {
-        border-color: #2680d9; } }
+        border-color: #2680d9;
+        outline: 0; } }
   .form [type=checkbox],
   .form [type=radio] {
     cursor: pointer;
@@ -107,4 +105,4 @@
     opacity: 0.5;
     pointer-events: none; }
   .form [readonly] {
-    background-color: rgba(51, 51, 51, 0.05); }
+    background-color: #f2f2f2; }
